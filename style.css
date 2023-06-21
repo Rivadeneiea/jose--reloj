@@ -21,4 +21,44 @@ body {
 .wrap {
   width: 90%;
   max-width: 1000px;
+  /* margin: auto; */
+}
+
+.widget {
+  margin: 50%;
+  width: 2em;
+}
+
+.widget p {
+  display: inline-block;
+  line-height: 1em;
+}
+
+.fecha {
+  font-family: "Kanit", sans-serif;
+  text-align: center;
+  font-size: 1.5 em;
+  margin-bottom: 0.3125rem;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  width: 100%;
+}
+
+.reloj {
+  font-family: "Kanit", sans-serif;
+  text-align: center;
+  font-size: 4em;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  width: 100%;
+}
+
+.reloj .caja-segundos {
+  display: inline-block;
+}
+
+.reloj .segundos,
+.reloj .ampm {
+  font-size: 2rem;
+  display: block;
 }
