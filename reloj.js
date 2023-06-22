@@ -54,12 +54,12 @@
 
     if (horas >= 12) {
       horas = horas - 12;
-      ampm = PM;
+      ampm = "PM";
     } else {
-      ampm = AM;
+      ampm = "AM";
     }
 
-    if ((horas = 0)) {
+    if (horas == 0) {
       horas = 12;
     }
 
